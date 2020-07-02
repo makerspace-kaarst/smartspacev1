@@ -1,0 +1,20 @@
+.pagetitle{
+  font-size: 6rem;
+  text-align: center;
+  margin:0.2rem;
+  color: #fff;
+}
+
+body{
+  color: #fff;
+  display: flex;
+  text-align: left;
+}
+
+.content{
+  margin-left: 10rem;
+}
+
+h1{
+  color: #dc8a43
+}

@@ -7,7 +7,7 @@ theme = "slate"
 
 [ params ]
 Favicon = "favicon.ico"
-OpenLinksInNewWindow = false
+OpenLinksInNewWindow = true
 
 #[[ params.nav ]]
 #name = "Original"

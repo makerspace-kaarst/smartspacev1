@@ -1,5 +1,5 @@
 ---
-title: "Makerspace Kaarst | About us"
+title: "About us"
 draft: false
 ---
 

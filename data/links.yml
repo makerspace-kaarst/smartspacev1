@@ -7,7 +7,7 @@ tiles:
 -
   name: "Node Board"
   url: "https://github.com/makerspace-kaarst/magicdashboard"
-  img: "logos/github-text.png"
+  img: "/logos/github-text.png"
   bg_color: "#ffffff"
   txt_color: "#ff9900"
   tags: ["github","projects","original"]
@@ -27,7 +27,7 @@ tiles:
   tags: ["kontakt"]
 -
   name: "über uns"
-  url: "/about"
+  url: "about"
   bg_color: "#f2a71d"
   txt_color: "#f5f8fa"
   tags: ["text"]

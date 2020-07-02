@@ -13,10 +13,39 @@ body{
 }
 
 .content{
-  margin-left: 10rem;
+  margin-left: var(--content-margin);
+  margin-right: var(--content-margin);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 a{
   color: var(--link-color);
   text-decoration: none;
 }
+
+p,table,img{
+  margin-left: var(--content-indent);
+}
+th{
+  padding-left: 2rem;
+  text-align: left;
+  background-color: #0f0f0f;
+}
+
+td {
+  padding-left: 2rem;
+  text-align: left;
+}
+td *{
+  text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+  text-align: left;
+}
+
+tr:nth-child(even){background-color: #222;}
+tr:nth-child(odd){background-color: #333;}

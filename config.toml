@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "de-DE"
 title = "Makerspace Kaarst | Home"
 theme = "slate"
+defaultContentLanguage = "de"
 
 #publishDir = "docs"
 
@@ -28,3 +29,14 @@ icon = "github"
 name = "text"
 tag = "text"
 icon = "pencil"
+
+[languages]
+  [languages.de]
+    contentDir = "content/deutsch"
+    languageName = "dee"
+    weight = 1
+
+  [languages.en]
+    contentDir = "content/english"
+    languageName = "en"
+    weight = 2

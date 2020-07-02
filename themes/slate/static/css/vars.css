@@ -1,4 +1,6 @@
 :root{
   --main-background-color:#444;
   --link-color: #568de6;
+  --content-indent: 5rem;
+  --content-margin: 5rem;
 }

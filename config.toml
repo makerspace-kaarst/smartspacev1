@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "de-DE"
-title = "Minkorrekt Linksammlung"
+title = "Makerspace Kaarst | Home"
 theme = "slate"
 
 #publishDir = "docs"

@@ -13,3 +13,5 @@ Das Konzept vom Makerspace besteht hauptsächlich darin, dass wir an [Projekten]
 ---- | -----|--------|
 Steve|[Stevetec-exe](https://github.com/Stevetec-exe)|[stevetec.de](https://stevetec.de)
 Jan-Hendrik|[JH220](https://github.com/JH220)|[jh220.de](http://jh220.de)
+
+> Weitere Mitgleider werden möglicherweise nicht angezeigt, da diese nicht damit zugestimmt haben oder diese Tabelle noch nicht geupdated wurde.

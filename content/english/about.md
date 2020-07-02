@@ -13,3 +13,5 @@ The concept of Makerspace mainly consists of working on [projects](https://githu
 ---- | -----|--------|
 Steve|[Stevetec-exe](https://github.com/Stevetec-exe)|[stevetec.de](https://stevetec.de)
 Jan-Hendrik|[JH220](https://github.com/JH220)|[jh220.de](http://jh220.de)
+
+> Other members may not be displayed because they have not agreed to it or this table has not yet been updated.

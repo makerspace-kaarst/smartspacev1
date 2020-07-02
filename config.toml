@@ -9,22 +9,18 @@ theme = "slate"
 Favicon = "favicon.ico"
 OpenLinksInNewWindow = false
 
-[[ params.nav ]]
-name = "Original"
-tag = "original"
-icon = "star"
+#[[ params.nav ]]
+#name = "Original"
+#tag = "original"
+#icon = "star"
+
 
 [[ params.nav ]]
-name = "shopping"
-tag = "shopping"
-icon = "shopping-basket"
+name = "kontakt"
+tag = "kontakt"
+icon = "envelope-open"
 
 [[ params.nav ]]
-name = "Community"
-tag = "community"
-icon = "users"
-
-[[ params.nav ]]
-name = "video"
-tag = "video"
-icon = "video-camera"
+name = "github"
+tag = "github"
+icon = "github"

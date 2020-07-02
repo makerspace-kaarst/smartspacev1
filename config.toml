@@ -33,7 +33,7 @@ icon = "pencil"
 [languages]
   [languages.de]
     contentDir = "content/deutsch"
-    languageName = "dee"
+    languageName = "de"
     weight = 1
 
   [languages.en]

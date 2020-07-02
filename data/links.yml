@@ -25,3 +25,8 @@ tiles:
   bg_color: "#1df268"
   txt_color: "#f5f8fa"
   tags: ["kontakt"]
+-
+  name: "über uns"
+  url: "/about"
+  bg_color: "#f2a71d"
+  txt_color: "#f5f8fa"

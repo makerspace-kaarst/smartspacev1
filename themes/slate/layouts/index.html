@@ -1,8 +1,9 @@
 <html>
 <head>
     <title>{{ .Title }}</title>{{ if .Site.Params.Favicon }}
-    <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">{{ end }}
     <link rel="stylesheet" href="css/slate.css">
+    <link rel="stylesheet" href="css/vars.css">
+    <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">{{ end }}
 </head>
 
 <body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}

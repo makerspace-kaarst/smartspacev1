@@ -47,5 +47,15 @@ h1,h2,h3,h4,h5,h6{
   text-align: left;
 }
 
+body {
+  -webkit-touch-callout: text; /* iOS Safari */
+    -webkit-user-select: text; /* Safari */
+     -khtml-user-select: text; /* Konqueror HTML */
+       -moz-user-select: text; /* Old versions of Firefox */
+        -ms-user-select: text; /* Internet Explorer/Edge */
+            user-select: text; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
 tr:nth-child(even){background-color: #222;}
 tr:nth-child(odd){background-color: #333;}

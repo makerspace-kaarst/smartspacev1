@@ -1,0 +1,86 @@
+tiles:
+-
+  name: "Minkorrekt"
+  url: "https://minkorrekt.de"
+  img: "http://minkorrekt.de/wp-content/cache/podlove/b0/ba18eb09b9603e9fe1d5002bfd6823/methodisch-inkorrekt_500x500.jpg"
+  tags: ["favorite", "original"]
+-
+  name: "amazon"
+  url: "https://amzn.to/2uEAhpu"
+  img: "logos/amazon.svg"
+  bg_color: "#ffffff"
+  txt_color: "#ff9900"
+  tags: ["shopping", "original"]
+-
+  name: "spotify"
+  url: "https://open.spotify.com/show/0xkq762OekJOnosa34C8Se"
+  img: "logos/spotify.svg"
+  bg_color: "#191414"
+  txt_color: "#1db954"
+  tags: ["favorite", "original", "podcast"]
+-
+  name: "twitter"
+  url: "https://twitter.com/MInkorrekt?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+  img: "logos/twitter.svg"
+  bg_color: "#1da1f2"
+  txt_color: "#f5f8fa"
+  tags: ["original"]
+-
+  name: "twitch"
+  url: "https://www.twitch.tv/minkorrekt"
+  img: "logos/twitch.svg"
+  bg_color: "#f1f1f1"
+  txt_color: "#6441a5"
+  tags: ["original" ,"video"]
+-
+  name: "youtube"
+  url: "https://www.youtube.com/channel/UCa8qyXCS-FTs0fHD6HJeyiw"
+  img: "logos/youtube.svg"
+  bg_color: "#ffffff"
+  txt_color: "#cd201f"
+  tags: ["original", "video"]
+-
+  name: "wikipedia"
+  url: "https://de.wikipedia.org/wiki/Methodisch_inkorrekt!"
+  img: "logos/wikipedia.svg"
+  bg_color: "#ffffff"
+  txt_color: "#000000"
+-
+  name: "Discord"
+  url: "https://discord.gg/SmvZhMR"
+  img: "logos/discord.svg"
+  bg_color: "#f1f1f1"
+  txt_color: "#cd201f"
+  tags: ["community"]
+-
+  name: "Songliste"
+  url: "https://minmusik.suspendedparticle.de/"
+  bg_color: "#3380ff"
+  txt_color: "#f1f1f1"
+  tags: ["community", "music"]
+-
+  name: "M!ntros"
+  url: "https://mintros.de/"
+  img: "logos/mintros.png"
+  bg_color: "#f1f1f1"
+  txt_color: "#000"
+  tags: ["community", "music"]
+-
+  name: "China Gadgets"
+  url: "https://minkorrekt-fakts.github.io/minkorrekt_chinagadgets/"
+  bg_color: "#ff3352"
+  txt_color: "#f1f1f1"
+  tags: ["community", "shopping"]
+-
+  name: "Experimente Liste"
+  url: "https://minkorrekt-fakts.github.io/experimente/"
+  bg_color: "#50b97b"
+  txt_color: "#f1f1f1"
+  tags: ["community"]
+-
+  name: "Bovis Calculator"
+  url: "https://stevetec.de/bovis/calc.html"
+  #img: "logos/bing.svg"
+  txt_color: "#ffffff"
+  bg_color: "#ffb900"
+  tags: ["schwurbel", "community"]

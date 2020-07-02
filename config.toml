@@ -1,0 +1,30 @@
+baseURL = "/"
+languageCode = "de-DE"
+title = "Minkorrekt Linksammlung"
+theme = "slate"
+
+#publishDir = "docs"
+
+[ params ]
+Favicon = "favicon.ico"
+OpenLinksInNewWindow = false
+
+[[ params.nav ]]
+name = "Original"
+tag = "original"
+icon = "star"
+
+[[ params.nav ]]
+name = "shopping"
+tag = "shopping"
+icon = "shopping-basket"
+
+[[ params.nav ]]
+name = "Community"
+tag = "community"
+icon = "users"
+
+[[ params.nav ]]
+name = "video"
+tag = "video"
+icon = "video-camera"

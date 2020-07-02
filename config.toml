@@ -7,8 +7,7 @@ theme = "slate"
 
 [ params ]
 Favicon = "favicon.ico"
-OpenLinksInNewWindow = true
-
+OpenLinksInNewWindow = false
 #[[ params.nav ]]
 #name = "Original"
 #tag = "original"
@@ -24,3 +23,8 @@ icon = "envelope-open"
 name = "github"
 tag = "github"
 icon = "github"
+
+[[ params.nav ]]
+name = "text"
+tag = "text"
+icon = "pencil"

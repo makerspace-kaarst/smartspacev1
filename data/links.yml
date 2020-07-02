@@ -30,3 +30,4 @@ tiles:
   url: "/about"
   bg_color: "#f2a71d"
   txt_color: "#f5f8fa"
+  tags: ["text"]

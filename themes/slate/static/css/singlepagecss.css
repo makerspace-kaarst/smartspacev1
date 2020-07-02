@@ -9,12 +9,14 @@ body{
   color: #fff;
   display: flex;
   text-align: left;
+  background-color: var(--main-background-color);
 }
 
 .content{
   margin-left: 10rem;
 }
 
-h1{
-  color: #dc8a43
+a{
+  color: var(--link-color);
+  text-decoration: none;
 }

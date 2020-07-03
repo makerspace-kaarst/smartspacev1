@@ -24,7 +24,6 @@ function loadTheme(theme) {
         splits[0] = splits[0].replace(' ','')
         splits[1] = splits[1].replace(' ','')
       }
-      console.log(splits);
       document.documentElement.style.setProperty(splits[0].replace(' ',''), splits[1].replace(';',''));
     }
   }

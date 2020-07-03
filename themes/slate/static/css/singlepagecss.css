@@ -5,9 +5,10 @@
   color: #fff;
 }
 
-body{
+.markdownbox{
   color: #fff;
   display: flex;
+  flex-flow: column;
   text-align: left;
   background-color: var(--main-background-color);
 }
@@ -19,6 +20,7 @@ body{
   flex-direction: column;
   justify-content: center;
   text-align: left;
+  color: #fff;
 }
 
 a{
@@ -30,12 +32,14 @@ p,table,img{
   margin-left: var(--content-indent);
 }
 th{
+  color: #fff;
   padding-left: 2rem;
   text-align: left;
   background-color: #0f0f0f;
 }
 
 td {
+  color: #fff;
   padding-left: 2rem;
   text-align: left;
 }

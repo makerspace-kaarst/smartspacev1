@@ -1,27 +1,28 @@
 <html>
 <head>
-  <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>Makerspace Kaarst | {{ .Title }}</title>{{ if .Site.Params.Favicon }}
-      <link rel="stylesheet" href="/css/vars.css">
-      <link rel="stylesheet" href="/css/slate.css">
-      <link rel="stylesheet" href="/css/singlepagecss.css">
-
-      <script src="/js/linker.js" charset="utf-8" defer></script>
-      <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">
-      <base href="/" target="_self">
-      {{ end }}
-  </head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Makerspace Kaarst | {{ .Title }}</title>{{ if .Site.Params.Favicon }}
+    <link rel="stylesheet" href="/css/slate.css">
+    <link rel="stylesheet" href="/css/vars.css">
+    <link rel="stylesheet" href="/css/singlepagecss.css">
+    <script src="/js/linker.js" charset="utf-8" defer></script>
+    <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">{{ end }}
+    <base href="/">
 </head>
 
-<body>
-  {{ partial "nav.html" . }}
-  <div style="flex: 1 1 auto;margin-left:1rem;margin-right:1rem">
-    <h1 class="pagetitle">{{.Title}}</h1>
-    <div style="font-size:18px;" class="content">{{.Content}}</div>
+<body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
+{{- if .Site.Params.BackgroundImages }} data-backgrounds='{{ range .Site.Params.BackgroundImages }}{{ . }},{{ end }}'{{- end }}>
+<div style="display:flex;background-color:#ff5252;background: rgba(0,0,0,.15);justify-content:center;align-items:center">
+  <h1 style="color:#fff;font-size:3rem;margin:0.2rem">Makerspace Kaarst</h1>
+</div>
+{{ partial "nav.html" . }}
 
-    </body>
-    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-  </div>
+<div style="flex: 1 1 auto;margin-left:1rem;margin-right:1rem">
+  <h1 class="pagetitle">{{.Title}}</h1>
+  <div class="markdownbox" style="font-size:18px;" class="content">{{.Content}}</div>
+</div>
+
+</body>
+<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+<script src="/js/slate.js"></script>
 </html>

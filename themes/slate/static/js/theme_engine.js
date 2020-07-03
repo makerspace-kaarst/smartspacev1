@@ -37,7 +37,7 @@ function loadTheme(theme) {
 
 function setCookie(cname, cvalue) {
   a = new Date((new Date()).getTime() + 1000 * 60 * 60 * 24 * 365);
-  document.cookie = cname + "=" + cvalue + ";expires=" + a.toGMTString() + ';';
+  document.cookie = cname + "=" + cvalue + ";expires=" + a.toGMTString() + ';path=/';
 }
 
 function getCookie(cname) {

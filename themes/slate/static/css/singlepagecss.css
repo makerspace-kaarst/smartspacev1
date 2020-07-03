@@ -11,17 +11,11 @@
   flex-flow: column;
   text-align: left;
   background-color: var(--main-background-color);
-}
-
-.content{
   margin-left: var(--content-margin);
   margin-right: var(--content-margin);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  color: #fff;
 }
+
+
 
 a{
   color: var(--link-color);

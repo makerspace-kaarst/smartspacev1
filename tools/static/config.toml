@@ -40,9 +40,3 @@ icon = "pencil"
     contentDir = "content/english"
     languageName = "en"
     weight = 2
-
-[markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true

@@ -1,0 +1,33 @@
+tiles:
+-
+  name: "Github organisation"
+  url: "https://github.com/makerspace-kaarst"
+  img: "https://avatars1.githubusercontent.com/u/67413681?s=200&v=4"
+  tags: ["github", "original"]
+-
+  name: "Node Board"
+  url: "https://github.com/makerspace-kaarst/magicdashboard"
+  img: "/logos/github-text.png"
+  bg_color: "#ffffff"
+  txt_color: "#ff9900"
+  tags: ["github","projects","original"]
+-
+  name: "Standort"
+  url: "https://evangelisch-in-kaarst.de/unsere-gemeinde/jc-holzbuettgen/"
+  #img: "logos/spotify.svg"
+  bg_color: "#3380ff"
+  txt_color: "#f1f1f1"
+  tags: ["kontakt"]
+-
+  name: "Email"
+  url: "mailto://kontakt@makerspace.jh220.de"
+  #img: "logos/email.svg"
+  bg_color: "#1df268"
+  txt_color: "#f5f8fa"
+  tags: ["kontakt"]
+-
+  name: "über uns"
+  url: "about"
+  bg_color: "#f2a71d"
+  txt_color: "#f5f8fa"
+  tags: ["text"]

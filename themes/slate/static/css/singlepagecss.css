@@ -2,11 +2,11 @@
   font-size: 6rem;
   text-align: center;
   margin:0.2rem;
-  color: #fff;
+  color: var(--font-color);
 }
 
 .markdownbox{
-  color: #fff;
+  color: var(--font-color);
   display: flex;
   flex-flow: column;
   text-align: left;
@@ -26,14 +26,14 @@ p,table,img{
   margin-left: var(--content-indent);
 }
 th{
-  color: #fff;
+  color: var(--font-color);
   padding-left: 2rem;
   text-align: left;
-  background-color: #0f0f0f;
+  background-color: var(--table-main);
 }
 
 td {
-  color: #fff;
+  color: var(--font-color);
   padding-left: 2rem;
   text-align: left;
 }
@@ -55,5 +55,5 @@ body {
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-tr:nth-child(even){background-color: #222;}
-tr:nth-child(odd){background-color: #333;}
+tr:nth-child(even){background-color: var(--table-even);}
+tr:nth-child(odd){background-color: var(--table-odd);}

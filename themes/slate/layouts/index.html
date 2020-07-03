@@ -5,13 +5,14 @@
     <link rel="stylesheet" href="/css/slate.css">
     <link rel="stylesheet" href="/css/vars.css">
     <script src="js/linker.js" charset="utf-8" defer></script>
+    <script src="js/theme_engine.js" charset="utf-8" defer></script>
     <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">{{ end }}
 </head>
 
 <body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
 {{- if .Site.Params.BackgroundImages }} data-backgrounds='{{ range .Site.Params.BackgroundImages }}{{ . }},{{ end }}'{{- end }}>
 <div style="display:flex;background-color:#ff5252;background: rgba(0,0,0,.15);justify-content:center;align-items:center">
-  <h1 style="color:#fff;font-size:3rem;margin:0.2rem">Makerspace Kaarst</h1>
+  <h1 style="color:var(--font-color);font-size:3rem;margin:0.2rem">Makerspace Kaarst</h1>
 </div>
 {{ partial "nav.html" . }}
 

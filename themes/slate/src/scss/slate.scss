@@ -8,9 +8,9 @@ $transition-time: .3s;
 
 $menu-bar-width: 50px;
 
-$background: #6e8365;
-$text-color: #000;
-$text-title-color: #fff;
+$background: var(--main-background-color);
+$text-color: var(--font-color);
+$text-title-color: var(--font-color);
 
 
 body {
@@ -93,7 +93,7 @@ body {
     width: $tile-width;
     background-color: transparent;
     box-sizing: border-box;
-    color: $text-title-color;
+    color: var(--font-color);
     display: block;
     height: 32px;
     line-height: 16px;
@@ -141,7 +141,7 @@ nav {
     padding: 7px 4px 4px;
     width: 50px;
     -webkit-user-select: none;
-    color: #fff;
+    color: var(--font-color);
 
     ul {
         display: flex;
@@ -167,7 +167,7 @@ nav {
         text-align: center;
 
         a {
-            color: #FFF;
+            color: var(--link-color);
             text-decoration: none;
         }
     }
@@ -255,11 +255,11 @@ body {
 	background-position: center top;
 	background-size: cover;
     background-blend-mode: darken;
-	-webkit-transition: background 1.4s linear;
-	-moz-transition: background 1.4s linear;
-	-ms-transition: background 1.4s linear;
-	-o-transition: background 1.4s linear;
-	transition: background 1.4s linear;
+    -webkit-transition: background 1.4s linear;
+  	-moz-transition: background 1.4s linear;
+  	-ms-transition: background 1.4s linear;
+  	-o-transition: background 1.4s linear;
+  	transition: background 1.4s linear;
     background-position-x: center;
     background-position-y: center;
     background-repeat-x: no-repeat;

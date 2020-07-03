@@ -1,4 +1,5 @@
 :root{
+  --color-scheme:#000;
   --content-indent: 5rem;
   --content-margin: 5rem;
 
@@ -9,6 +10,12 @@
   --table-even:#222;
   --table-odd: #333;
 
+}
+
+@media (prefers-color-scheme: light) {
+  body{
+    --color-scheme:#fff;
+  }
 }
 
 *[data-tooltip]::after{

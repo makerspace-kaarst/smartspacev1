@@ -4,7 +4,7 @@ $tile-width: 188px;
 $tile-height: 120px;
 $tile-spacing: 16px;
 $title-height: 16px;
-$transition-time: .3s;
+$transition-time: .0s;
 
 $menu-bar-width: 50px;
 
@@ -65,7 +65,7 @@ body {
     padding: 8px;
     -webkit-flex: 0 0 188px;
 	flex: 0 0 188px;
-    transition: top 0.3s, left 0.3s, opacity 0.3s;
+    transition: top 00s, left 00s, opacity 00s;
 }
 
 .tile-box {
@@ -101,7 +101,7 @@ body {
     padding: 8px;
     text-align: center;
     text-overflow: ellipsis;
-    transition: color 0.3s;
+    transition: color 00s;
     white-space: nowrap;
 }
 
@@ -227,11 +227,6 @@ nav {
 
     pointer-events: none;
     opacity: 0;
-    -webkit-transition: opacity .15s ease-in-out;
-    -moz-transition: opacity .15s ease-in-out;
-    -ms-transition: opacity .15s ease-in-out;
-    -o-transition: opacity .15s ease-in-out;
-    transition: opacity .15s ease-in-out;
 
     display: block;
     font-size: 12px;
@@ -255,11 +250,6 @@ body {
 	background-position: center top;
 	background-size: cover;
     background-blend-mode: darken;
-    -webkit-transition: background 1.4s linear;
-  	-moz-transition: background 1.4s linear;
-  	-ms-transition: background 1.4s linear;
-  	-o-transition: background 1.4s linear;
-  	transition: background 1.4s linear;
     background-position-x: center;
     background-position-y: center;
     background-repeat-x: no-repeat;

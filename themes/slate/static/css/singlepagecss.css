@@ -10,7 +10,6 @@
   display: flex;
   flex-flow: column;
   text-align: left;
-  background-color: var(--main-background-color);
   margin-left: var(--content-margin);
   margin-right: var(--content-margin);
 }

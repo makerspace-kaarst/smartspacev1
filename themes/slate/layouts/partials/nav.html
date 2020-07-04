@@ -1,8 +1,12 @@
 <div class="nav-panel">
-    <nav>
+    <nav style="display:flex;flex-flow:column">
         <ul>
             <li class="tag"><a data-tooltip="all" href="#"><i class="icon fa fa-th" aria-hidden="true"></i></a></li>
 {{ range .Site.Params.nav }}            {{ partial "nav_item.html" . }}{{- end }}
         </ul>
+
+        <div style="flex:1 1 auto">
+        </div>
+        <li class="tag" style="list-style-type: none;padding-bottom:0"><a data-tooltip="all" onclick="toggleTheme()"><i class="icon fa fa-moon-o" aria-hidden="true"></i></a></li>
     </nav>
 </div>

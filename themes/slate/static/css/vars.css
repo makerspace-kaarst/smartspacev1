@@ -28,3 +28,6 @@
 
   color: var(--font-color);
 }
+
+/*nav ul::after{content:'';display:list-item;flex:1;order:2;background-color: #f55;margin: 0;}*/
+nav ul::after{height: 20px;}

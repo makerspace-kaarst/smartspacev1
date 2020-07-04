@@ -62,15 +62,43 @@ def delete_tmp(path, basepath):
     os.remove(basepath + path)
 
 
+def title_of(file,lang):
+    with open('../content/'+lang+'/'+file,'r') as f:
+        title = f.readlines()[1].replace('title:','').strip()[1:-1]
+    return title
+
+
+def make_link(file,lang):
+    base = f"""-
+    name: "{ title_of(file,lang)}"
+    url: "{('.'.join(file.split('.')[:-1])).split('/')[-1]}"
+    bg_color: "#f2a71d"
+    txt_color: "#f5f8fa"
+    tags: ["text"]
+"""
+    print(base)
+    return base
+
 file_data = file_analysis()
+
+with open('static/links.yml','r') as f:
+    links = f.read()
+for file in file_data[0]:
+    try:
+        links += make_link(file,'english')
+    except FileNotFoundError:
+        links += make_link(file,'deutsch')
+with open('../data/links.yml','w') as f:
+    f.write(links)
+
 generate_prebuild_report(file_data)
 for p in file_data[1]:
     file_missing(p,'../content/deutsch/')
 
 for p in file_data[2]:
     file_missing(p,'../content/english/')
-print('\n'*3)
 
+print('\n'*3)
 folder = '../public'
 for filename in os.listdir(folder):
     file_path = os.path.join(folder, filename)
@@ -81,10 +109,9 @@ for filename in os.listdir(folder):
             shutil.rmtree(file_path)
     except Exception as e:
         print('Failed to delete %s. Reason: %s' % (file_path, e))
-
-print('--------  Building Page  --------')
 build_page()
-print()
+
+
 for p in file_data[1]:
     delete_tmp(p,'../content/deutsch/')
 

@@ -1,5 +1,5 @@
 import os
-
+import shutil
 
 def list_files(path):
     return _list_files(path,'')
@@ -70,6 +70,18 @@ for p in file_data[1]:
 for p in file_data[2]:
     file_missing(p,'../content/english/')
 print('\n'*3)
+
+folder = '../public'
+for filename in os.listdir(folder):
+    file_path = os.path.join(folder, filename)
+    try:
+        if os.path.isfile(file_path) or os.path.islink(file_path):
+            os.unlink(file_path)
+        elif os.path.isdir(file_path):
+            shutil.rmtree(file_path)
+    except Exception as e:
+        print('Failed to delete %s. Reason: %s' % (file_path, e))
+
 print('--------  Building Page  --------')
 build_page()
 print()

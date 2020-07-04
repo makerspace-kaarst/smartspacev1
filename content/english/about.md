@@ -3,11 +3,11 @@ title: "About us"
 draft: false
 ---
 
-# Konzept
+# Concept
 
 The concept of Makerspace mainly consists of working on [projects](https://github.com/orgs/makerspace-kaarst/projects), where we have pure software projects and hardware projects (see also: [ideas](https://github.com/makerspace-kaarst/ideas)).
 
-# Mitglieder
+# Members
 
 |Name|GitHub|Website|
 ---- | -----|--------|

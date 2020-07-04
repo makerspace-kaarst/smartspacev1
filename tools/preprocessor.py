@@ -49,13 +49,13 @@ def generate_prebuild_report(report):
 def file_missing(path, basepath):
     with open('static/missing_file_' + ('de' if 'deutsch' in basepath else 'en')+'.md','r') as f:
         text = f.read()
-    path = basepath + path
+    final_path = basepath + path
     try:
-        os.mkdir('/'.join(path.split('/')[:-1]))
+        os.mkdir('/'.join(final_path.split('/')[:-1]))
     except FileExistsError:
         pass
-    with open(path,'w') as f:
-        f.write(text)
+    with open(final_path,'w') as f:
+        f.write(text.replace('{path}','.'.join(path.split('.')[:-1])))
 
 
 def delete_tmp(path, basepath):

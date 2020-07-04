@@ -7,3 +7,6 @@ draft: false
 
 # Warum sehe ich das hier?
 Der gesuchte inhalt exestiert nur in der Englischen version der Webseite und muss noch übersetzt werden.
+
+# Link zur englischen Version:
+[Hier klicken](/en/{path})

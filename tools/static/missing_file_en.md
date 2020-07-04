@@ -7,3 +7,6 @@ draft: false
 
 # How did i get here?
 The requested content only exists in german because we did not get arround to translating it yet.
+
+# Read the german version:
+[Click here](/{path})

@@ -1,4 +1,4 @@
-# Website of the Makerspace Kaarst
+# SmartSpace (Website of the Makerspace Kaarst)
 
 > This is the repository of the website of Makerspace Kaarst (see also [official website](http://www.makerspace.jh220.de)).
 
@@ -12,11 +12,11 @@
     - Fork this repo!
 
 - **Option 2**
-    - Clone this repo to your local machine using `https://github.com/makerspace-kaarst/magicdashboard.git`
+    - Clone this repo to your local machine using `https://github.com/makerspace-kaarst/smartspacev1.git`
 
 ### Step 2
 
-- Create a new pull request using <a href="https://github.com/makerspace-kaarst/magicdashboard/compare/" target="_blank">`https://github.com/makerspace-kaarst/magicdashboard/compare/`</a>.
+- Create a new pull request using <a href="https://github.com/makerspace-kaarst/smartspacev1/compare/" target="_blank">`https://github.com/makerspace-kaarst/smartspacev1/compare/`</a>.
 
 ---
 
